@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Poppins', 'Sans-serif';
+@layer components {
+  body {
+    @apply font-base font-krona text-black text-dark bg-light-grey;
+  }
 }
+
+

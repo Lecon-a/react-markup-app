@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Main = () => {
     return (
@@ -8,7 +9,10 @@ const Main = () => {
         // Footer
         <>
             <Navbar />
-            <h1>Main</h1>
+            <div className="container mx-auto">
+                <h1>Main</h1>
+            </div>
+            <Footer /> 
         </>
     )
 }
